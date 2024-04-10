@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.flayer{
+    background-image: url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(50%);
+    height: 400px;
+    color: white;
+    
+}
+
+.flayer p {
+    width: 40%;
+    font-size: 20px;
+}

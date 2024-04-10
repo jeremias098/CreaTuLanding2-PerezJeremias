@@ -1,0 +1,48 @@
+
+.contenedor-card-juego{
+    height: 100%;
+    
+}
+
+.titulo-contenedor{
+    font-size: 40px;
+    color: orangered;
+    text-shadow: 0 0 10px black;
+    margin-bottom: 100px;
+}
+.juegos{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 30px;
+    
+}
+
+.juego{
+    display: flex;
+    background-color: gray;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    flex-direction: column;
+    height: 100%;
+    width: 300px;
+   overflow: hidden;
+    
+}
+
+
+.descr-juego{
+
+    padding-left: 10px;
+}
+
+.juego img {
+    height: 200px;
+    width: 100%;
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px ;
+    object-fit: contain;
+    object-position:top ;
+    background-color: orange;
+    
+}

@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.producto-detalle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background: grey;
+
+}
+
+.producto-detalle img {
+    height: 70%;
+    width: 100%;
+}
+
+.leyenda{
+   
+    color: white;
+}
+
+.leyenda h3{
+    font-size: 30px;
+}

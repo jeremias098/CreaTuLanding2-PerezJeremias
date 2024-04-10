@@ -1,0 +1,32 @@
+.navBar{
+    display:flex ;
+    justify-content: space-between;
+    padding: 20px 70px 0 70px;
+    
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.logo{
+    font-size: 40px;
+  color: orangered;
+  text-shadow: 0 0 10px black;
+
+}
+
+.link_menu a{
+    color:white ;
+    
+}
+.link_menu a:hover{
+    color: orangered;
+  text-shadow: 0 0 10px black;
+    
+}
+
+.link_menu a , .logo {
+    text-decoration: none;
+}

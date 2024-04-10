@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "clase": "destacado",
+        "titulo": "Call of Dutty",
+        "descripcion": "Juego de guerra",
+        "categoria": "armas",
+        "imagen": "https://image.api.playstation.com/vulcan/img/cfn/11307CjjUZ9rA_whmJUghJsG9Hl1-rmnOUTk3-nccj01ZpYMCHrJ8k8kzBrVyp-p-iCPej73TEJAs88ZBeiZ1uirtj0fsa16.png",
+        "precio": 15500,
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "clase": "Normal",
+        "titulo": "Battlefield",
+        "descripcion": "Juego de guerra",
+        "categoria": "armas",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToOgsVe6rXtyGoNGu4k8pU99jc4NU6jheucbX8TuOisQ&s",
+        "precio": 11500,
+        "stock": 10
+    },
+    {
+        "id": 3,
+        "clase": "destacado",
+        "titulo": "FC 24",
+        "descripcion": "Juego de futbol",
+        "categoria": "deporte",
+        "imagen": "https://dixgamer.com/wp-content/uploads/2023/07/EA-SPORTS-FC%E2%84%A2-24-Standard-Edition.jpg",
+        "precio": 12500,
+        "stock": 10
+    },
+    {
+        "id": 4,
+        "clase": "Normal",
+        "titulo": "Need for speed",
+        "descripcion": "Juego de autos",
+        "categoria": "carreras",
+        "imagen": "https://c4.wallpaperflare.com/wallpaper/39/346/426/digital-art-men-city-futuristic-night-hd-wallpaper-preview.jpg",
+        "precio": 15500,
+        "stock": 10
+    },
+    {
+        "id": 5,
+        "clase": "destacado",
+        "titulo": "NFL 24",
+        "descripcion": "Football Americano",
+        "categoria": "deporte",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNnE_1hjXeIAAPFMWLCYZ7NUY5zncg1xC0RikGo_ww2Q&s",
+        "precio": 11500,
+        "stock": 10
+    },
+    {
+        "id": 6,
+        "clase": "Normal",
+        "titulo": "League of legends",
+        "descripcion": "Juego de mierda",
+        "categoria": "estrategia",
+        "imagen": "https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S2_1200x1600-905a96cea329205358868f5871393042",
+        "precio": 21500,
+        "stock": 10
+    },
+    {
+        "id": 7,
+        "clase": "Normal",
+        "titulo": "World of craft",
+        "descripcion": "Juego de guerra",
+        "categoria": "estrategia",
+        "imagen": "https://m.media-amazon.com/images/I/81feWhChfIL._SL1500_.jpg",
+        "precio": 13500,
+        "stock": 10
+    }
+]
