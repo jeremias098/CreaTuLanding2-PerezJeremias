@@ -11,13 +11,11 @@ const Home = () => {
       .then((res) => {
         setJuegos(res);
       })
-      .catch((error) => {
-        console.error('Error al obtener los datos:', error);
-      });
+      
   }, []);
 
   const juegosDestacados = juegos.filter(juego => juego.clase === "destacado");
-console.log(juegosDestacados);
+
   return (
     <div className='container'>
       <div className='flayer'>

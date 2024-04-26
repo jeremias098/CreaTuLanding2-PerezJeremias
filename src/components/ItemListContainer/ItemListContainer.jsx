@@ -1,22 +1,30 @@
 import React, { useEffect, useState } from 'react';
-import pedirDatos from '../../helpers/pedirDatos';
 import { Link } from 'react-router-dom';
 import './ItemListContainer.css';
-
+import { collection, getDocs } from 'firebase/firestore';
+import { db } from '../../firebase/config';
 const ItemListContainer = () => {
   const [juegos, setJuegos] = useState([]);
   const [categorias, setCategorias] = useState([]);
   const [filtroCategoria, setFiltroCategoria] = useState('');
 
   useEffect(() => {
-    pedirDatos()
+    const juegosRef = collection(db, "juegos");
+  
+    getDocs(juegosRef)
       .then((res) => {
-        setJuegos(res);
-        const categoriasUnicas = Array.from(new Set(res.map(juego => juego.categoria)));
+        const juegosData = res.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data()
+        }));
+        setJuegos(juegosData);
+  
+       
+        const categoriasUnicas = Array.from(new Set(juegosData.map(juego => juego.categoria)));
         setCategorias(categoriasUnicas);
       })
       .catch((error) => {
-        console.error('Error al obtener los datos:', error);
+        console.error("Error fetching documents: ", error);
       });
   }, []);
 
@@ -63,3 +71,6 @@ const ItemListContainer = () => {
 };
 
 export default ItemListContainer;
+
+
+
